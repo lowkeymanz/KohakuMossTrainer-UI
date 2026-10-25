@@ -54,7 +54,7 @@ code {
 
 .sidebar nav { display: flex; flex-direction: column; gap: 2px; }
 
-.sidebar a, .nav-disabled {
+.sidebar a {
   display: block;
   padding: 9px 12px;
   border-radius: 6px;
@@ -67,27 +67,6 @@ code {
 .sidebar a.active {
   background: var(--accent);
   color: #fff;
-}
-
-.nav-disabled {
-  color: var(--muted);
-  cursor: not-allowed;
-}
-
-.nav-disabled em {
-  font-style: normal;
-  font-size: 11px;
-  background: var(--panel-2);
-  border-radius: 4px;
-  padding: 1px 5px;
-  margin-left: 4px;
-}
-
-.sidebar-foot {
-  margin-top: auto;
-  color: var(--muted);
-  font-size: 12px;
-  padding: 0 8px;
 }
 
 .content {
