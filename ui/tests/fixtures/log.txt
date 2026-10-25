@@ -1,0 +1,10 @@
+2026-10-23 20:33:20 | INFO | kohakumoss.run | loading weights from D:/models/moss
+2026-10-23 20:33:31 | INFO | kohakumoss.data | dataset kohya: 24 images, 24 captions
+2026-10-23 20:33:45 | INFO | kohakumoss.cache | text cache hit 24/24 (offline cache)
+2026-10-23 20:34:02 | WARNING | kohakumoss.vram | card 7.9 GiB below preset 8g by 0.05 tolerance kept
+2026-10-23 20:34:10 | INFO | kohakumoss.train | step 1 loss=0.6123 lr=1.0e-05 sec/step=4.21
+2026-10-23 20:34:14 | INFO | kohakumoss.train | step 2 loss=0.5981 lr=2.0e-05 sec/step=4.18
+2026-10-23 20:35:01 | ERROR | kohakumoss.sample | sampling failed at step 5: RuntimeError access violation
+2026-10-23 20:35:01 | INFO | kohakumoss.train | step 6 loss=0.5210 lr=5.0e-05 sec/step=4.22
+2026-10-23 20:36:40 | INFO | kohakumoss.io | checkpoint saved: checkpoints/step_00000040 (trainable/optim/state)
+2026-10-23 20:36:52 | INFO | kohakumoss.exports | auto-export comfy+lycoris -> runs/moss/demo-run/export

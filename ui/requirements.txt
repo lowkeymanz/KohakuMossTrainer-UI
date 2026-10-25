@@ -1,0 +1,10 @@
+# UI 后端独立环境依赖(ui/.venv),与引擎根 .venv 完全隔离。
+# 版本与 M0-M3 实测环境一致;升级需重跑 ui/tests 全量回归。
+fastapi==0.161.1
+uvicorn==0.54.0
+python-multipart==0.0.32
+websockets==17.3
+pynvml==13.0.1
+watchdog==6.0.0
+httpx==0.28.1
+pytest==9.1.1

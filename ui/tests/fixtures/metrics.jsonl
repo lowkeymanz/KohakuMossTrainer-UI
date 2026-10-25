@@ -1,0 +1,7 @@
+{"step": 1, "time": 1761200000.5, "loss": 0.612345, "grad_norm": 1.234, "lr": 1e-05, "sec_per_step": 4.21}
+{"step": 2, "time": 1761200004.8, "loss": 0.59812, "grad_norm": 1.102, "lr": 2e-05, "sec_per_step": 4.18}
+{"step": 3, "time": 1761200009.1, "loss": 0.57221, "grad_norm": 0.987, "lr": 3e-05, "sec_per_step": 4.3}
+{"step": 4, "time": 1761200013.4, "loss": 0.55109, "grad_norm": 1.045, "lr": 4e-05, "sec_per_step": 4.25}
+{"step": 5, "time": 1761200017.7, "loss": 0.53988, "grad_norm": 0.912, "lr": 5e-05, "sec_per_step": 4.19, "val_loss": 0.5821, "val_loss@0.5": 0.6012, "val_loss@1.0": 0.563}
+{"step": 6, "time": 1761200022.0, "loss": 0.52103, "grad_norm": 0.899, "lr": 5e-05, "sec_per_step": 4.22}
+{"step": 7, "time": 1761200026.3, "loss": 0.51044, "grad_norm": 0.871, "lr": 5e-05, "sec_per_step": 4.31}

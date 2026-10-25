@@ -1,0 +1,17 @@
+recipes          dora, full_24g_offload, full_fsdp_4xv100, lora_12g_stream, lora_16g_fp16, lora_24g_bf16, lora_ddp, lora_xpu_b50, lycoris_loha, lycoris_lokr, lycoris_oft
+moss/algo       dora, full, loha, lokr, lora, oft
+moss/data       folder, folder_nl, jsonl, kohya, moss_shard, parquet, webdataset
+moss/vram       12g, 16g, 24g, 24g_full, 6g, 8g, auto
+moss/precision  bf16, fp16
+moss/parallel   ddp, fsdp, pipeline, threaded
+sample/precision  bf16, fp16
+
+memory profiles (MEMORY_PROFILE; estimated peak at 1 MP, LoRA rank 16):
+| profile | checkpoint | weights | act_offload | optimizer | grad_offload | LoRA GiB | full FT GiB |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `speed` | none | resident | off | gpu | off | 35.0 | 106.0 |
+| `balanced` | block | stream 16 | off | gpu | off | 8.2 | 53.0 |
+| `low` | block | stream 4 | on | stream fused | off | 3.9 | 13.7 |
+| `minimal` | block | stream 2 | on | stream fused | on | 3.3 | 14.0 |
+
+240 catalog profiles more: kohakumoss-config list --all (docs/concepts/profiles.md)

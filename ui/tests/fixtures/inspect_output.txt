@@ -1,0 +1,21 @@
+2026-10-23 20:30:01 | INFO | kohakumoss.inspect | scanning datasets
+{
+ "catalog": {
+  "root": "D:/KohakuMossTrainer/ui/state/datasets/demo",
+  "images": 24,
+  "captioned": 24,
+  "source": "kohya",
+  "repeats": 100
+ },
+ "plan": {
+  "cache_text": true,
+  "cache_latents": true,
+  "text_cache_dir": "D:/KohakuMossTrainer/ui/state/datasets/demo/.cache/text",
+  "latent_cache_dir": "D:/KohakuMossTrainer/ui/state/datasets/demo/.cache/latents"
+ },
+ "captions": [
+  {"file": "100_demo/a.png", "text": "a cat, white fur"},
+  {"file": "100_demo/b.png", "text": "a cat, {braces} in text"}
+ ]
+}
+2026-10-23 20:30:02 | INFO | kohakumoss.inspect | done

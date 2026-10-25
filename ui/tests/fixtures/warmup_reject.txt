@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "kohakumoss/config/starter.py", line 120, in new_train
+    _check(cfg)
+ValueError: STEPS=10 is smaller than warmup 100; raise STEPS or lower WARMUP_STEPS (config check failed, nothing written)
